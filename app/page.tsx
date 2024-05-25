@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic';
 import AnimatedCursor from "react-animated-cursor";
 import Home from "./components/home/StyledHome";
 import CategoryTitle from "./components/CategoryTitle";
@@ -8,6 +9,11 @@ import WorkExperiences from "./components/WorkExperiences/StyledWorkExperiences"
 import Contact from "./components/contact/ContactStyled";
 import Footer from "./components/Footer";
 import Header from "./components/Heading";
+// import Gallery from "./components/Gallery/StyledGallery";
+
+const Gallery = dynamic(() => import('../app/components/Gallery/StyledGallery'), {
+  ssr: false
+});
 
 export default function Page() {
   return (
@@ -35,6 +41,7 @@ export default function Page() {
       <Services />
       <FaveVerse />
       <WorkExperiences />
+      <Gallery />
       <CategoryTitle customStyle="margin-left: 50px">Contact</CategoryTitle>
       <Contact />
       <Footer />

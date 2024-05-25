@@ -131,15 +131,6 @@ const ItemsFC:React.FC<IItem> = ({className, viewUpdate, itemInfo, itemIndex, tr
                 interestContext?.setValue(itemInfo.title);
                 router.push('#contact');
             }}>Interested</Button>
-            {/* <Autograf
-             as={motion.h1}
-             animate={
-                {
-                    opacity: inView? 0.2 : 0,
-                    transition: { duration: 2, delay: 2}
-                }
-             }
-             >Aj DeeGuzman</Autograf> */}
         </motion.div>
     )
 }
@@ -166,13 +157,6 @@ const Item = styled(ItemsFC)`
     border: 1px solid var(--main-text-color);
     border-radius: 5px;
     /* box-shadow: 0 -2px 3px #f930a57a; */
-
-    && > ${Autograf} {
-        font-size: 7vw;
-        font-family: Autograf;
-        margin: auto;
-        bottom: 40%;
-    }
 
     && > h1, p, strong {
         font-family: Bungee;
