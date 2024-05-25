@@ -37,11 +37,11 @@ const IntroductionFC: React.FC<IStyledFC> = ({className}) => {
                 <TextReveal direction="right"><h1>Hello There!</h1></TextReveal>
                 <TextReveal direction="left"  flexItem>
                     <p>
-                        I\'m Apple Jane De Guzman, a dedicated and enthusiastic woman. With a passion for aiding others remotely, 
-                        I\'m excited to share my journey and showcase my skills through this portfolio. Throughout my educational 
-                        and professional experiences, I\'m thrilled to continue learning and growing in this dynamic field. 
+                        I&apos;m Apple Jane De Guzman, a dedicated and enthusiastic woman. With a passion for aiding others remotely, 
+                        I&apos;m excited to share my journey and showcase my skills through this portfolio. Throughout my educational 
+                        and professional experiences, I&apos;m thrilled to continue learning and growing in this dynamic field. 
                         Join me on this journey as I explore new opportunities and make meaningful contributions to your organization. 
-                        Let\'s connect, collaborate, and create something incredible together!
+                        Let&apos;s connect, collaborate, and create something incredible together!
                     </p>
                 </TextReveal>
             </div>
@@ -50,11 +50,11 @@ const IntroductionFC: React.FC<IStyledFC> = ({className}) => {
                 <TextReveal direction="right"><h1>Hello There!</h1></TextReveal>
                     <TextReveal direction="left" flexItem>
                         <p>
-                            I'I\'m Apple Jane De Guzman, a dedicated and enthusiastic woman. With a passion for aiding others remotely, 
-                            I\'m excited to share my journey and showcase my skills through this portfolio. Throughout my educational 
-                            and professional experiences, I\'m thrilled to continue learning and growing in this dynamic field. 
+                            I&apos;m Apple Jane De Guzman, a dedicated and enthusiastic woman. With a passion for aiding others remotely, 
+                            I&apos;m excited to share my journey and showcase my skills through this portfolio. Throughout my educational 
+                            and professional experiences, I&apos;m thrilled to continue learning and growing in this dynamic field. 
                             Join me on this journey as I explore new opportunities and make meaningful contributions to your organization. 
-                            Let\'s connect, collaborate, and create something incredible together!
+                            Let&apos;s connect, collaborate, and create something incredible together!
                         </p>
                     </TextReveal>
             </div>

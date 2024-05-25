@@ -82,7 +82,7 @@ const WorkExperiencesFC: React.FC<IStyledFC> = ({className}) => {
                         <TextReveal direction="right"><p className="title">Event Emcee (Part-time)</p></TextReveal>
                     </span>
                     <span className="description-reveal-container">
-                        <TextReveal direction="right"><p className="description">I\'m Apple Jane De Guzman, a dedicated and enthusiastic woman. With a passion for aiding others remotely, I\'m excited to share my journey and showcase my skills through this portfolio. </p></TextReveal>
+                        <TextReveal direction="right"><p className="description">I&apos;m Apple Jane De Guzman, a dedicated and enthusiastic woman. With a passion for aiding others remotely, I&apos;m excited to share my journey and showcase my skills through this portfolio. </p></TextReveal>
                     </span>
                 </div>
                 <div className="right-image-content" style={{backgroundImage: 'url(assets/images/emcee.jpg)'}}></div>
