@@ -2,7 +2,6 @@ import React from "react";
 import { FacebookEmbed } from "react-social-media-embed";
 import { IStyledFC } from "@/app/types/IStyledFC";
 import { landscapeVideoLinks, verticalVideoLinks } from "@/app/Array/videoLinks";
-import ReactPlayer from "react-player";
 
 const GalleryFC: React.FC<IStyledFC> = ({className}) => {
     const [refresh, setRefresh] = React.useState(0);
