@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import LenisSmoothScroll from "./components/LenisSmoothScroll";
+import { InterestContextProvider } from "./context/InterestContextProvider";
+import { WindowContextProvider } from "./context/WindowSizeContextProvider";
+import StyledComponentsRegistry from "./components/styledCompRegistry";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +20,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        {/* <LenisSmoothScroll> */}
+        <WindowContextProvider>
+          <InterestContextProvider>
+            <StyledComponentsRegistry>
+              {children}
+            </StyledComponentsRegistry>
+          </InterestContextProvider>
+        </WindowContextProvider>
+        {/* </LenisSmoothScroll> */}
+      </body>
     </html>
   );
 }
