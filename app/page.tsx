@@ -9,7 +9,7 @@ import WorkExperiences from "./components/WorkExperiences/StyledWorkExperiences"
 import Contact from "./components/contact/ContactStyled";
 import Footer from "./components/Footer";
 import Header from "./components/Heading";
-// import Gallery from "./components/Gallery/StyledGallery";
+import StyleTools from './components/Tools/StyledTools';
 
 const Gallery = dynamic(() => import('../app/components/Gallery/StyledGallery'), {
   ssr: false
@@ -32,17 +32,20 @@ export default function Page() {
       clickables={[
         '.cur',
         'button',
+        'a'
       ]}
     />
       <Header />
       <Home />
-      <CategoryTitle customStyle="margin-left: 50px">About Me</CategoryTitle>
+      <CategoryTitle id="about" customStyle="margin: 0 auto">About Me</CategoryTitle>
       <AboutMe />
       <Services />
       <FaveVerse />
+      <StyleTools />
       <WorkExperiences />
+      <CategoryTitle id="featured" customStyle="margin: 0 auto">Featured Works</CategoryTitle>
       <Gallery />
-      <CategoryTitle customStyle="margin-left: 50px">Contact</CategoryTitle>
+      <CategoryTitle id="contact" customStyle="margin: 0 auto">Contact</CategoryTitle>
       <Contact />
       <Footer />
     </main>

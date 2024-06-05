@@ -61,7 +61,7 @@ const WorkExperiences = styled(WorkExperiencesFC)`
                 }
 
                 .description {
-                    font-size: 18px;
+                    font-size: 15px;
                     font-family: BalooBhaina2;
                     padding: 0;
                     text-align: justify;

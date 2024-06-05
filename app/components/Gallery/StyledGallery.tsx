@@ -6,7 +6,7 @@ const Gallery = styled(GalleryFC)`
     display: flex;
     flex: 0 1 100%;
     height: fit-content;
-    padding: 100px 0;
+    padding: 0 0 100px 0;
     gap: 20px;
     align-items: center;
     justify-content: center;
@@ -26,18 +26,24 @@ const Gallery = styled(GalleryFC)`
         > .col {
             height: fit-content;
             display: flex;
-            flex: 0 40%;
+            /* flex: 0 40%; */
             gap: 20px;
             flex-direction: column;
             align-content: flex-start;
     
             > .embed-item {
-                width: 100%;
+                width: 30%;
                 min-width: 300px;
                 height: fit-content;
             }
         }
+
+        @media (max-width: 1000px) {
+            width: 90%;
+            padding: 0 5%;
+        }
     }
+
 
 
     

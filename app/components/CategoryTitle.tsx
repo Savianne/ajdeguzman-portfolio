@@ -18,11 +18,15 @@ const variants = {
     }
 }
 
-const CategoryTitleFC: React.FC<IStyledFC> = ({className, children}) => {
+interface ICategoryTitle extends IStyledFC {
+    id: string;
+}
+
+const CategoryTitleFC: React.FC<ICategoryTitle> = ({className, id, children}) => {
     const ref = React.useRef<null | HTMLDivElement>(null)
     const isInView = useInView(ref);
     return (
-        <div className={className}>
+        <div className={className} id={id}>
             <motion.div 
             className="line" 
             ref={ref}
@@ -53,6 +57,7 @@ const CategoryTitle = styled(CategoryTitleFC)<{customStyle?: string}>`
     max-width: 1100px;
     padding: 0 30px;
     align-items: center;
+    justify-content: center;
     line-height: 1.2;
     margin: 100px auto;
 

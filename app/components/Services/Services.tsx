@@ -147,7 +147,7 @@ const Item = styled(ItemsFC)`
     height: 90dvh;
     /* max-height: fit-content; */
     /* background-color: #a4d1e9ad; */
-    background-image: url(assets/images/aestetic.jpg);
+    background-image: url(assets/images/paint-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,16 +176,16 @@ const Item = styled(ItemsFC)`
     }
 
     && > h1 {
-        margin: 0 0 70px 70px;
+        margin: 0 0 30px 70px;
     }
 
     && > p {
         font-family: BalooBhaina2;
-        margin: 0 70px 70px 70px;
+        margin: 0 70px 30px 70px;
         line-height: 1.5;
         /* color: #78174f; */
         color: #59422d;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
     }
 
@@ -249,7 +249,7 @@ const ItemSmallScreen = styled(ItemsSmallScreenFC)`
     padding: 80px 20px;
     background-color: #ffffff;
     backdrop-filter: blur(5px);
-    background-image: url(assets/images/aestetic.jpg);
+    background-image: url(assets/images/paint-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -276,7 +276,7 @@ const ItemSmallScreen = styled(ItemsSmallScreenFC)`
         line-height: 1.5;
         /* color: #78174f; */
         color: #59422d;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 600;
     }
 

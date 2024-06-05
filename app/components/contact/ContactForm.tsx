@@ -40,6 +40,7 @@ const ContactFormFC: React.FC<IStyledFC> = ({className}) => {
                     if(!response.ok) throw response
                     
                     setError(false);
+                    setFormValue({'email': "", name: "", message: ''});
                 } catch(err) {
                     setError(true);
                 } finally {

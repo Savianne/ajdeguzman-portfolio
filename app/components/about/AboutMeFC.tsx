@@ -9,7 +9,7 @@ const AboutMeFC: React.FC<IStyledFC> = ({className}) => {
     const ref = React.useRef<null | HTMLDivElement>(null)
     const isInView = useInView(ref);
     return (
-        <div id="about" className={className} ref={ref}>
+        <div className={className} ref={ref}>
             <Introduction />
             {/* <motion.h1 
             className="txt"

@@ -97,7 +97,9 @@ const HeaderFC: React.FC<IStyledFC> = ({className}) => {
                                         <li className="cur" onClick={() => router.push('#home')}>Home</li>
                                         <li className="cur" onClick={() => router.push('#about')}>About Me</li>
                                         <li className="cur" onClick={() => router.push('#services')}>My Services</li>
+                                        <li className="cur" onClick={() => router.push('#tools')}>Tools</li>
                                         <li className="cur" onClick={() => router.push('#works')}>Work Experiences</li>
+                                        <li className="cur" onClick={() => router.push('#featured')}>Featured Works</li>
                                         <li className="cur" onClick={() => router.push('#contact')}>Contact</li>
                                         <div>
                                             <Button color="#42092c9b"

@@ -37,7 +37,14 @@ const WorkExperiencesFC: React.FC<IStyledFC> = ({className}) => {
                         <TextReveal direction="right"><p className="title">Facebook Page Manager</p></TextReveal>
                     </span>
                     <span className="description-reveal-container">
-                        <TextReveal direction="right"><p className="description">I&apos;m Apple Jane De Guzman, a dedicated and enthusiastic woman. With a passion for aiding others remotely, I&apos;m excited to share my journey and showcase my skills through this portfolio. </p></TextReveal>
+                        <TextReveal direction="right">
+                            <p className="description">
+                            I manage the <a href="https://www.facebook.com/profile.php?id=100067208912235">Roxas Coc Pastoral Message</a> Facebook page, creating and curating content to spread God&apos;s 
+                            word and engage our community. My role involves posting updates, promoting programs and events, and 
+                            fostering an inspiring online environment. Through strategic content and active engagement, I help 
+                            connect our congregation and extend our outreach.
+                            </p>
+                        </TextReveal>
                     </span>
                 </div>
                 <div className="right-image-content" style={{backgroundImage: 'url(assets/images/services.jpg)'}}></div>
@@ -60,7 +67,14 @@ const WorkExperiencesFC: React.FC<IStyledFC> = ({className}) => {
                         <TextReveal direction="right"><p className="title">Radio Dj</p></TextReveal>
                     </span>
                     <span className="description-reveal-container">
-                        <TextReveal direction="right"><p className="description">I&apos;m Apple Jane De Guzman, a dedicated and enthusiastic woman. With a passion for aiding others remotely, I&apos;m excited to share my journey and showcase my skills through this portfolio. </p></TextReveal>
+                        <TextReveal direction="right">
+                            <p className="description">
+                            Before transitioning to manage the Roxas Church of Christ&apos;s Facebook page, I spent several years as 
+                            their Radio DJ. In this role, I curated and hosted programs that uplifted and inspired our listeners. 
+                            Through music, messages, and community engagement, I helped foster a sense of connection and spirituality 
+                            among our audience.
+                            </p>
+                        </TextReveal>
                     </span>
                 </div>
                 <div className="bottom-image-content" style={{backgroundImage: 'url(assets/images/radio-dj.jpg)'}}></div>
@@ -82,7 +96,15 @@ const WorkExperiencesFC: React.FC<IStyledFC> = ({className}) => {
                         <TextReveal direction="right"><p className="title">Event Emcee (Part-time)</p></TextReveal>
                     </span>
                     <span className="description-reveal-container">
-                        <TextReveal direction="right"><p className="description">I&apos;m Apple Jane De Guzman, a dedicated and enthusiastic woman. With a passion for aiding others remotely, I&apos;m excited to share my journey and showcase my skills through this portfolio. </p></TextReveal>
+                        <TextReveal direction="right">
+                            <p className="description">
+                            During my studies, I honed my skills as an Event Emcee/Host, guiding audiences through various gatherings 
+                            and occasions. With a blend of charisma and professionalism, I ensured events flowed seamlessly while keeping 
+                            attendees engaged and entertained. My experience as an Event Emcee instilled 
+                            in me the ability to captivate audiences and create vibrant atmospheres, skills I continue to utilize in my 
+                            professional endeavors.
+                            </p>
+                        </TextReveal>
                     </span>
                 </div>
                 <div className="right-image-content" style={{backgroundImage: 'url(assets/images/emcee.jpg)'}}></div>
