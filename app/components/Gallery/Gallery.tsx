@@ -28,7 +28,7 @@ const GalleryFC: React.FC<IStyledFC> = ({className}) => {
                 <div className="col">
                     {
                         verticalVideoLinks.map(link => (
-                            <div className="embed-item">
+                            <div  key={link.link} className="embed-item">
                                 <FacebookEmbed url={link.link} width={"100%"} />
                             </div>
                         ))
@@ -37,7 +37,7 @@ const GalleryFC: React.FC<IStyledFC> = ({className}) => {
                 <div className="col">
                     {
                         landscapeVideoLinks.map(link => (
-                            <div className="embed-item">
+                            <div  key={link.link} className="embed-item">
                                 <FacebookEmbed url={link.link} width={"100%"} />
                             </div>
                         ))
@@ -46,7 +46,7 @@ const GalleryFC: React.FC<IStyledFC> = ({className}) => {
                 <div className="col">
                     {
                         ThirdRow.map(link => (
-                            <div className="embed-item">
+                            <div key={link.link} className="embed-item">
                                 <FacebookEmbed url={link.link} width={"100%"} />
                             </div>
                         ))
