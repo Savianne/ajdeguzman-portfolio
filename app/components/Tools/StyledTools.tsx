@@ -41,6 +41,12 @@ const StyleTools = styled(ToolsFC)`
         }
     }
 
+    && > .tools-grid-container {
+        max-width: 800px;
+        justify-content: center;
+    }
+
+
     && > .tools-grid-container > .tools-grid {
         display: grid;
         width: 100%;

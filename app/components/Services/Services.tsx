@@ -145,6 +145,8 @@ const Item = styled(ItemsFC)`
     max-width: 800px;
     min-width: 300px;
     height: 90dvh;
+    justify-content: center;
+    /* max-height: 800px; */
     /* max-height: fit-content; */
     /* background-color: #a4d1e9ad; */
     background-image: url(assets/images/paint-bg.jpg);
@@ -169,6 +171,7 @@ const Item = styled(ItemsFC)`
     
     && > strong {
         margin: 70px 0 70px 70px;
+        margin-top: 0;
         color: #966434;
         font-size: 30px;
         text-decoration: underline;

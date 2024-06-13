@@ -72,7 +72,7 @@ const HeaderFC: React.FC<IStyledFC> = ({className}) => {
         }}
         className={className} ref={scope}>
             <div className="center-content">
-                <h1 className="logo cur">Aj</h1>
+                <h1 className="logo cur" onClick={() => router.push('#home')}>Aj</h1>
                 <div className="menu-container">
                     <MenuToggle toggle={() => setIsOpen(!isOpen)} />
                     <AnimatePresence>

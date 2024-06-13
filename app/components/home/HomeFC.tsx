@@ -51,6 +51,15 @@ const HomeFC: React.FC<IStyledFC> = ({className}) => {
                             <div className="socials-container">
                                 <Socials />
                             </div>
+                            <div className="resume-btn">
+                                <Button color="#a88869"
+                                onClick={() => {
+                                    const e = document.createElement("a")
+                                    e.setAttribute("target", '_BLANK')
+                                    e.setAttribute('href', '/resume/DE-GUZMAN-AJ-RESUME.pdf')
+                                    e.click()
+                                }}>My Resume</Button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -97,6 +106,15 @@ const HomeFC: React.FC<IStyledFC> = ({className}) => {
                             </div>
                             <div className="socials-container">
                                 <Socials />
+                            </div>
+                            <div className="resume-btn">
+                                <Button color="#a88869"
+                                onClick={() => {
+                                    const e = document.createElement("a")
+                                    e.setAttribute("target", '_BLANK')
+                                    e.setAttribute('href', '/resume/DE-GUZMAN-AJ-RESUME.pdf')
+                                    e.click()
+                                }}>My Resume</Button>
                             </div>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ const WorkExperiences = styled(WorkExperiencesFC)`
     padding: 50px 30px;
     flex-wrap: wrap;
     gap: 5vw;
-    /* flex-direction: column; */
+    flex-direction: column;
     
     > .heading-text-reveal-container {
         display: flex;
@@ -25,7 +25,8 @@ const WorkExperiences = styled(WorkExperiencesFC)`
 
     > .card {
         display: flex;
-        flex: 0 1 1150px;
+        /* flex: 0 1 1150px; */
+        max-width: 1150px;
         /* height: fit-content; */
         height: 550px;
         /* height: 90dvh; */
@@ -58,6 +59,10 @@ const WorkExperiences = styled(WorkExperiencesFC)`
                     font-size: 2vw;
                     font-family: Ronsley;
                     padding: 10% 0;
+
+                    @media (min-width: 1500px) {
+                        font-size: 30px;
+                    }
                 }
 
                 .description {
@@ -66,6 +71,12 @@ const WorkExperiences = styled(WorkExperiencesFC)`
                     padding: 0;
                     text-align: justify;
                     line-height: 1.5;
+                }
+            }
+
+            @media (min-width: 1500px) {
+                > .numbering-reveal-container {
+                    font-size: 60px;
                 }
             }
             

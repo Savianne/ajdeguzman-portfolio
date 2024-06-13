@@ -152,7 +152,7 @@ const Introduction = styled(IntroductionFC)`
     flex: 0 1 1100px;
     padding: 0 30px;
     margin: 0 auto;
-    /* margin-top: 100px; */
+    margin-bottom: 100px;
 
     && > .small-screen {
         display: none;
@@ -202,6 +202,10 @@ const Introduction = styled(IntroductionFC)`
     }
 
     @media (max-width: 800px) {
+        && {
+            margin-bottom: 0px;
+        }
+
         && > ${DisplayPicture}, && > .large-screen {
             display: none;
         }
@@ -216,7 +220,6 @@ const Introduction = styled(IntroductionFC)`
             align-items: center;
             gap: 30px;
             margin: 0 auto;
-
              
             h1, p {
                 flex: 0 1 100%;

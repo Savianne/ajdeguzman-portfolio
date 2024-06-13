@@ -83,6 +83,12 @@ const Home = styled(HomeFC)`
                     align-items: center;
                     padding: 10px;
                 }
+
+                > .resume-btn {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+                }
             }
         }
 
@@ -105,6 +111,7 @@ const Home = styled(HomeFC)`
 
         > .top-container {
             position: relative;
+            min-height: 300px;
 
             > .office-backdrop {
                 position: absolute;
@@ -162,6 +169,12 @@ const Home = styled(HomeFC)`
                 }
 
                 > .socials-container {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+                }
+
+                > .resume-btn {
                     display: flex;
                     align-items: center;
                     padding: 10px;

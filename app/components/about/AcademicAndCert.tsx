@@ -81,7 +81,7 @@ const AcademicAndCertFC: React.FC<IStyledFC> = ({className}) => {
             </div> */}
             <div className="scrolling-text-container">
                 <ScrollingText>
-                    <TextScroll>My Educational Attainment -</TextScroll>
+                    <TextScroll>My Educational Attainments -</TextScroll>
                 </ScrollingText>
             </div>
             <div className="row">
@@ -113,7 +113,7 @@ const AcademicAndCertFC: React.FC<IStyledFC> = ({className}) => {
                                         <h2 className="value">2019-2023</h2>
                                     </TextReveal>
                                     <TextReveal direction="right">
-                                        <h2 className="value">1.30</h2>
+                                        <h2 className="value">1.431 (Magna Cumlaude)</h2>
                                     </TextReveal>
                                 </div>
                                 <div className="center-line"></div>
@@ -156,9 +156,9 @@ const AcademicAndCertFC: React.FC<IStyledFC> = ({className}) => {
                                     <TextReveal direction="left">
                                         <h2 className="prop">A/Year</h2>
                                     </TextReveal>
-                                    <TextReveal direction="left">
+                                    {/* <TextReveal direction="left">
                                         <h2 className="prop">GWA</h2>
-                                    </TextReveal>
+                                    </TextReveal> */}
                                 </div>
                                 <div className="center-line"></div>
                                 <div className="values">
@@ -166,11 +166,11 @@ const AcademicAndCertFC: React.FC<IStyledFC> = ({className}) => {
                                         <h2 className="value school">Aparri Bible Seminary</h2>
                                     </TextReveal>
                                     <TextReveal direction="right">
-                                        <h2 className="value">2019-2023</h2>
+                                        <h2 className="value">2011-2014</h2>
                                     </TextReveal>
-                                    <TextReveal direction="right">
+                                    {/* <TextReveal direction="right">
                                         <h2 className="value">1.30</h2>
-                                    </TextReveal>
+                                    </TextReveal> */}
                                 </div>
                             </div>
                         </div>
