@@ -72,7 +72,8 @@ const HeaderFC: React.FC<IStyledFC> = ({className}) => {
         }}
         className={className} ref={scope}>
             <div className="center-content">
-                <h1 className="logo cur" onClick={() => router.push('#home')}>Aj</h1>
+                <img className="logo cur" src="/logo.png" alt="Aj" onClick={() => router.push('#home')} />
+                {/* <h1 className="logo cur" onClick={() => router.push('#home')}>Aj</h1> */}
                 <div className="menu-container">
                     <MenuToggle toggle={() => setIsOpen(!isOpen)} />
                     <AnimatePresence>
@@ -141,11 +142,14 @@ const Header = styled(HeaderFC)`
         padding: 0 30px;
         margin: 0 auto;
 
-        > .logo {
+        /* > .logo {
             font-size: 40px;
             font-family: ZillaSlabHighlightBold;
-            /* color: #e48ec0; */
             color: #ffd0a3;
+        } */
+
+        > .logo {
+            width: 50px;
         }
 
         > .menu-container {
