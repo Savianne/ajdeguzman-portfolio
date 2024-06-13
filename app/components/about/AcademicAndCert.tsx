@@ -81,7 +81,7 @@ const AcademicAndCertFC: React.FC<IStyledFC> = ({className}) => {
             </div> */}
             <div className="scrolling-text-container">
                 <ScrollingText>
-                    <TextScroll>My Educational Attainments -</TextScroll>
+                    <TextScroll>My Educational Attainment -</TextScroll>
                 </ScrollingText>
             </div>
             <div className="row">
